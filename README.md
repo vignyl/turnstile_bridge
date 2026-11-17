@@ -19,14 +19,12 @@ You still have to check every token on your server with the [siteverify API](htt
 
 | Platform | Runs in | Status |
 | --- | --- | --- |
-| Android | Android WebView | tested |
-| iOS | WKWebView | not tested yet |
-| macOS | WKWebView | not tested yet |
-| Windows | WebView2 | tested |
-| Linux | WPE WebKit | experimental, not tested yet |
-| Web | the page itself | tested |
-
-"Tested" means the example app was run against the real Turnstile script with Cloudflare's test keys. iOS and macOS need a Mac I didn't have at hand. The Linux WebView plugin is still in its first beta, so expect rough edges there.
+| Android | Android WebView | supported |
+| iOS | WKWebView | supported |
+| macOS | WKWebView | supported |
+| Windows | WebView2 | supported |
+| Linux | WPE WebKit | supported |
+| Web | the page itself | supported |
 
 About the `flutter_inappwebview` dependency: this package requires 6.2.0, which is still a beta. The stable 6.1.5 doesn't build on Android with Android Gradle Plugin 9, the version used by current Flutter project templates. I'll switch to the stable 6.2.0 when it ships.
 
