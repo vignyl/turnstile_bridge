@@ -1,0 +1,40 @@
+name: turnstile_bridge
+description: >-
+  Cloudflare Turnstile captcha for Flutter. A self-resizing widget, a headless
+  mode for invisible keys and a controller, on mobile, desktop and web.
+version: 0.1.0
+repository: https://github.com/vignyl/turnstile_bridge
+issue_tracker: https://github.com/vignyl/turnstile_bridge/issues
+
+topics:
+  - cloudflare
+  - turnstile
+  - captcha
+  - webview
+  - security
+
+platforms:
+  android:
+  ios:
+  linux:
+  macos:
+  web:
+  windows:
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+  flutter: ">=3.22.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_inappwebview: ^6.2.0-beta.3
+  meta: ^1.11.0
+  web: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
